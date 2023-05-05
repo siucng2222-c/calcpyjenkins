@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    triggers {
-        pollSCM('H/5 * * * *')
-    }
+    // triggers {
+    //     pollSCM('H/5 * * * *')
+    // }
     stages {
         stage('Unit test') {
             steps {
